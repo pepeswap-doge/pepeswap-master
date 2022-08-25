@@ -34,7 +34,7 @@
 .userMenuIcon {
   padding: 0 !important;
   margin-right: -30px;
-  color: #06D3D7 !important;
+  color: #91F79F !important;
 }
 
 .appLogo {
@@ -119,7 +119,7 @@
   align-items: center;
   margin-left: 14px !important;
   min-height: 50px;
-  background-color: rgb(33, 43, 72) !important;
+  background-color: #0E0F19 !important;
   border: 0 !important;
   border-radius: 40px !important;
   color: rgba(255, 255, 255, 0.87) !important;
@@ -321,9 +321,9 @@
 .testnetDisclaimerText {
   font-size: 13px !important;
   font-weight: 200 !important;
-  border: 1px solid rgb(6, 211, 215) !important;
+  border: 1px solid #91f79f !important;
   border-radius: 10px;
-  background: rgb(23, 52, 72) !important;
+  background: #466060 !important;
   padding: 16px !important;
 }
 

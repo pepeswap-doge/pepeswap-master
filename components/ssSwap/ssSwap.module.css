@@ -36,7 +36,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   max-width: 80px;
   min-height: 50px;
   padding: 20px 12px 4px 12px ;
@@ -48,7 +48,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
 }
 
 .error {
@@ -137,7 +137,7 @@
 .displayAssetIcon {
   border: 1px solid rgba(126, 153, 176, 0.2);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   width: 100px;
   height: 100px;
   padding: 10px;
@@ -146,7 +146,7 @@
 .displayAssetIconSmall {
   border: 1px solid rgba(126, 153, 176, 0.2);
   border-radius: 30px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   padding: 6px;
 }
 
@@ -156,7 +156,7 @@
   position: absolute;
   top: 60px;
   right: 0px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
 }
 
 .displayChainIconSmall {
@@ -165,7 +165,7 @@
   position: absolute;
   top: 30px;
   right: -5px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
 }
 
 .inputTitleContainerSlippage {
@@ -369,7 +369,7 @@
   cursor: pointer;
   padding: 6px;
   font-size: 30px !important;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   margin: 4px;
   border-radius: 6px;
 }
@@ -526,7 +526,7 @@
 .depositInfoHeading {
   width: 100%;
   font-weight: 700 !important;
-  color: #06D3D7 !important;
+  color: #91F79F !important;
   padding-bottom: 15px !important;
   border-bottom: 1px solid rgba(126, 153, 176, 0.2);
   font-size: 14px !important;
@@ -559,8 +559,8 @@
 }
 
 .buttonOverride {
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
   font-weight: 700 !important;
   max-height: 50px !important;
 }
@@ -594,13 +594,13 @@
 
 .stabIndicator {
   font-size: 13px !important;
-  color: #06D3D7;
+  color: #91F79F;
 }
 
 .routeArrow {
   width: 20px;
   height: 10px;
-  background: rgb(25, 33, 56);
+  background: #092327;
   font-size: 10px !important;
   margin: auto;
   margin-bottom: -4px;
@@ -608,7 +608,7 @@
 
 .routeArrowIcon {
   font-size: 13px !important;
-  color: #06D3D7;
+  color: #91F79F;
 }
 
 .quoteLoader {
@@ -621,9 +621,9 @@
 .quoteError {
   font-size: 13px !important;
   font-weight: 200 !important;
-  border: 1px solid rgb(6, 211, 215) !important;
+  border: 1px solid #91f79f !important;
   border-radius: 10px;
-  background: rgb(23, 52, 72) !important;
+  background: #466060 !important;
   padding: 24px !important;
   min-width: 100%;
 }
@@ -638,9 +638,9 @@
 .warningWarning {
   font-size: 13px !important;
   font-weight: 200 !important;
-  border: 1px solid rgb(6, 211, 215) !important;
+  border: 1px solid #91f79f !important;
   border-radius: 10px;
-  background: rgb(23, 52, 72) !important;
+  background: #466060 !important;
   padding: 24px !important;
   min-width: 100%;
 }

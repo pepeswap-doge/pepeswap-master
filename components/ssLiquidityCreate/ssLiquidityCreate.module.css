@@ -225,8 +225,8 @@
   flex-direction: column;
   width: 100%;
   border-radius: 9px 9px 0 0;
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
 }
 
 .toggleButtons:hover {
@@ -240,7 +240,7 @@
   transition: none !important;
   opacity: 1;
   background: none !important;
-  color: rgb(6, 211, 215) !important;
+  color: #91f79f !important;
 }
 
 /* .buttonActive {
@@ -268,8 +268,8 @@
 }
 
 .buttonOverride {
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
   font-weight: 700 !important;
 }
 
@@ -300,7 +300,7 @@
   cursor: pointer;
   padding: 6px;
   font-size: 30px !important;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   margin: 4px;
   border-radius: 6px;
 }
@@ -315,7 +315,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
 }
 
 .massiveInputAssetSelect {
@@ -337,7 +337,7 @@
 .displayAssetIconSmall {
   border: 1px solid rgba(126, 153, 153, 0.5);
   border-radius: 30px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   padding: 6px;
 }
 
@@ -366,7 +366,7 @@
 .displayAssetIcon {
   border: 1px solid rgba(126, 153, 176, 0.3);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   width: 100px;
   height: 100px;
   padding: 10px;
@@ -378,7 +378,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
 }
 
 .mediumInputAssetSelect {
@@ -410,7 +410,7 @@
 .mediumdisplayAssetIcon {
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   width: 50px;
   height: 50px;
   padding: 5px;
@@ -449,7 +449,7 @@
 .depositInfoHeading {
   width: 100%;
   font-weight: 700 !important;
-  color: #06D3D7 !important;
+  color: #91F79F !important;
   padding-bottom: 15px !important;
   border-bottom: 1px solid rgba(126, 153, 176, 0.2);
   font-size: 14px !important;
@@ -523,7 +523,7 @@
 }
 
 .backIcon {
-  color: #06D3D7 !important;
+  color: #91F79F !important;
 }
 
 .titleText {
@@ -538,7 +538,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
 }
 
 .mediumInputAssetSelect {
@@ -570,7 +570,7 @@
 .mediumdisplayAssetIcon {
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   width: 50px;
   height: 50px;
   padding: 5px;
@@ -594,14 +594,14 @@
 }
 
 .toggleOption:hover {
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
 }
 
 .toggleOption.active {
-  border: 1px solid #06D3D7;
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  border: 1px solid #91F79F;
+  background: #466060 !important;
+  color: #91f79f !important;
 }
 
 .toggleOptionText {

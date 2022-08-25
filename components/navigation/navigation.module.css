@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   border-radius: 12px;
   border: 0 !important;
   padding: 3px;
@@ -307,7 +307,7 @@ a.linkz { cursor: pointer !important; }
 } /* Transparent border to eliminate position jittering from Active state */
 
 .testChange {
-  border: 1px solid #06d3d7 !important;
+  border: 1px solid #91f79f !important;
   background-color: rgba(0,0,0,0) !important;
   color: #FFF !important;
 }
@@ -485,7 +485,7 @@ a.linkz { cursor: pointer !important; }
   }
 
   .testChange {
-    border: 1px solid #06d3d7 !important;
+    border: 1px solid #91f79f !important;
     background-color: rgba(0,0,0,0) !important;
     color: #FFF !important;
   }

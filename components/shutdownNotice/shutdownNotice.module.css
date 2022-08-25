@@ -53,8 +53,8 @@
 
 .primaryButton {
   margin-bottom: 20px !important;
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
   min-width: 457px !important;
 }
 
@@ -96,8 +96,8 @@
 
   .primaryButton {
     margin-bottom: 20px !important;
-    background: rgb(23, 52, 72) !important;
-    color: rgb(6, 211, 215) !important;
+    background: #466060 !important;
+    color: #91f79f !important;
     min-width: 320px !important;
   }
 }
@@ -126,8 +126,8 @@
 
   .primaryButton {
     margin-bottom: 20px !important;
-    background: rgb(23, 52, 72) !important;
-    color: rgb(6, 211, 215) !important;
+    background: #466060 !important;
+    color: #91f79f !important;
     min-width: 260px !important;
   }
 }

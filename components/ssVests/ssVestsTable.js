@@ -233,8 +233,8 @@ const useStyles = makeStyles((theme) => ({
     height: '35px'
   },
   buttonOverride: {
-    color: 'rgb(6, 211, 215)',
-    background: 'rgb(23, 52, 72)',
+    color: '#91f79f',
+    background: '#466060',
     fontWeight: '700',
     width: '100%',
     '&:hover': {

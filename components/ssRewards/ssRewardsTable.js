@@ -301,14 +301,14 @@ const useStyles = makeStyles((theme) => ({
     color: 'green',
   },
   imgLogo: {
-    border: '3px solid rgb(25, 33, 56)',
+    border: '3px solid #092327',
     borderRadius: '30px',
   },
   img1Logo: {
     position: 'absolute',
     left: '0px',
     top: '0px',
-    border: '3px solid rgb(25, 33, 56)',
+    border: '3px solid #092327',
     borderRadius: '30px',
   },
   img2Logo: {
@@ -316,7 +316,7 @@ const useStyles = makeStyles((theme) => ({
     left: '23px',
     zIndex: '1',
     top: '0px',
-    border: '3px solid rgb(25, 33, 56)',
+    border: '3px solid #092327',
     borderRadius: '30px',
   },
   overrideTableHead: {
@@ -334,8 +334,8 @@ const useStyles = makeStyles((theme) => ({
     marginRight: '30px',
   },
   buttonOverride: {
-    color: 'rgb(6, 211, 215)',
-    background: 'rgb(23, 52, 72)',
+    color: '#91f79f',
+    background: '#466060',
     fontWeight: '700',
     '&:hover': {
       background: 'rgb(19, 44, 60)'
@@ -355,7 +355,7 @@ const useStyles = makeStyles((theme) => ({
   filterButton: {
     background: '#111729',
     border: '1px solid rgba(126,153,176,0.3)',
-    color: '#06D3D7',
+    color: '#91F79F',
     marginRight: '30px',
   },
   actionButtonText: {
@@ -387,7 +387,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: '1px solid rgba(126,153,176,0.2)',
   },
   infoIcon: {
-    color: '#06D3D7',
+    color: '#91F79F',
     fontSize: '16px',
     marginLeft: '10px',
   },

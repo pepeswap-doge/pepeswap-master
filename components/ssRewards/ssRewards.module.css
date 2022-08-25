@@ -44,8 +44,8 @@
 }
 
 .buttonOverride {
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
   font-weight: 700 !important;
   width: 100%;
   min-width: 200px !important;
@@ -82,7 +82,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   padding: 0 20px;
   min-height: 60px;
 }
@@ -133,9 +133,9 @@
 .disclaimer {
   font-size: 13px !important;
   font-weight: 200 !important;
-  border: 1px solid rgb(6, 211, 215) !important;
+  border: 1px solid #91f79f !important;
   border-radius: 10px;
-  background: rgb(23, 52, 72) !important;
+  background: #466060 !important;
   padding: 21.5px !important;
 }
 

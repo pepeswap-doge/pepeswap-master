@@ -70,8 +70,8 @@
 }
 
 .buttonOverride {
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
   font-weight: 700 !important;
   width: 100%;
   min-width: 200px !important;
@@ -83,8 +83,8 @@
 
 
 .buttonOverrideFixed {
-  background: rgb(23, 52, 72) !important;
-  color: rgb(6, 211, 215) !important;
+  background: #466060 !important;
+  color: #91f79f !important;
   font-weight: 700 !important;
   min-width: 200px !important;
   max-height: 48px;
@@ -120,7 +120,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   padding: 0 20px;
 }
 

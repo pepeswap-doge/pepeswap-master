@@ -10,7 +10,7 @@
 
 .transactionsContainer {
   border-radius: 12px;
-  background: rgb(33, 43, 72);
+  background: #0E0F19;
   border: 1px solid rgba(108,108,123, 0.2);
   padding: 24px;
   margin-bottom: 12px;
@@ -109,7 +109,7 @@
 }
 
 .viewDetailsText a {
-  color: #06D3D7 !important;
+  color: #91F79F !important;
 }
 
 .viewDetailsText a:hover {

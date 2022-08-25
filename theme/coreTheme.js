@@ -161,7 +161,7 @@ const coreTheme = {
         borderRadius: "12px",
       },
       "&$selected": {
-        border: '1px solid #06d3d7',
+        border: '1px solid #91f79f',
         backgroundColor: 'rgba(0,0,0,0)'
       }
     },
