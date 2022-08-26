@@ -5,8 +5,6 @@ import { Typography, Paper, Switch, Button, Tooltip, Grid, SvgIcon } from '@mate
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
 import { withTheme, withStyles } from '@material-ui/core/styles';
 
-import SSWarning  from '../ssWarning';
-
 import stores from '../../stores';
 import { formatAddress } from '../../utils';
 import classes from './navigation.module.css';
@@ -121,6 +119,9 @@ function Navigation(props) {
 
   useEffect(() => {
     const activePath = router.asPath
+    if(activePath.includes('presale')) {
+      setActive('presale')
+    }
     if(activePath.includes('swap')) {
       setActive('swap')
     }
@@ -155,6 +156,10 @@ function Navigation(props) {
         onChange={onActiveClick}
         className={ classes.navToggles}
       >
+        {renderSubNav(
+          'Presale',
+          'presale',
+        )}
         {renderSubNav(
           'Swap',
           'swap',
@@ -211,10 +216,6 @@ function Navigation(props) {
       </div>
 
       <div className={classes.navigationContent}>{renderNavs()}</div>
-
-      { warningOpen &&
-        <SSWarning close={ closeWarning } />
-      }
 
     </div>
   );
