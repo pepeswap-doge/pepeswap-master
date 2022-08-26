@@ -87,13 +87,13 @@
 }
 
 .buttonConnect {
-  background: rgba(6,211,215,0.3) !important;
-  color: rgba(6,211,215,1) !important;
+  background: #466060!important;
+  color: #91F79F;
   border-radius: 60px !important;
   padding: 12px 24px 14px 24px !important;
   font-weight: 700 !important;
   text-transform: none !important;
-  border: 1px solid rgba(6,211,215,1) !important;
+  border: 1px solid #91F79F;
   transform: scale(0.85);
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -103,10 +103,10 @@
 }
 
 .buttonConnect:hover {
-  background: rgba(6,211,215,1) !important;
+  background: #91F79F;
   color: #111729 !important;
   text-transform: none !important;
-  border: 1px solid rgba(6,211,215,1) !important;
+  border: 1px solid #91F79F;
   transform: scale(0.9);
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
