@@ -217,7 +217,7 @@ function Header(props) {
   }
 
   const switchChain = async () => {
-    let hexChain = '0x7D0'
+    let hexChain = '0x'+Number(process.env.NEXT_PUBLIC_CHAINID).toString(16)
     try {
       await window.ethereum.request({
         method: 'wallet_switchEthereumChain',
@@ -331,9 +331,9 @@ function Header(props) {
         <div className={classes.ErrorContent}>
           <WrongNetworkIcon className={ classes.networkIcon } />
           <Typography className={classes.ErrorTxt}>
-            The chain you're connected to isn't supported. Please check that your wallet is connected to Dogechain Mainnet.
+            The chain you're connected to isn't supported. Please check that your wallet is connected to DogeChain Mainnet.
           </Typography>
-          <Button className={classes.switchNetworkBtn} variant="contained" onClick={()=>switchChain()} >Switch to { process.env.NEXT_PUBLIC_CHAINID == '4002' ? 'Fantom Testnet' : 'Dogechain Mainnet' }</Button>
+          <Button className={classes.switchNetworkBtn} variant="contained" onClick={()=>switchChain()} >Switch to { process.env.NEXT_PUBLIC_CHAINID == '4002' ? 'DogeChain Mainnet' : 'DogeChain Mainnet' }</Button>
         </div>
       </div>
     ) : null}
