@@ -5,7 +5,7 @@ import { NetworkConnector } from "@web3-react/network-connector";
 
 const POLLING_INTERVAL = 12000;
 const RPC_URLS = {
-  250: "https://rpc.ftm.tools",
+  // 250: "https://rpc.ftm.tools",
   4002: "https://rpc.testnet.fantom.network",
   2000: "https://rpc01-sg.dogechain.dog",
 };
@@ -25,7 +25,7 @@ export const injected = new InjectedConnector({
 
 export const walletconnect = new WalletConnectConnector({
   rpc: {
-    250: RPC_URLS[250],
+    // 250: RPC_URLS[250],
     4002: RPC_URLS[4002],
     2000: RPC_URLS[2000]
   },
@@ -37,6 +37,6 @@ export const walletconnect = new WalletConnectConnector({
 
 export const walletlink = new WalletLinkConnector({
   url: RPC_URLS[process.env.NEXT_PUBLIC_CHAINID],
-  appName: "Solidly",
+  appName: "PepeSwap",
   chainId: parseInt(process.env.NEXT_PUBLIC_CHAINID),
 });

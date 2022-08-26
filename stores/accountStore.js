@@ -68,8 +68,8 @@ class Store {
     injected.isAuthorized().then((isAuthorized) => {
       const { supportedChainIds } = injected;
       // fall back to ethereum mainnet if chainId undefined
-      const { chainId = process.env.NEXT_PUBLIC_CHAINID } = window.ethereum || {};
-      const parsedChainId = parseInt(chainId, 16);
+      // const { chainId = '0x7D0' } = window.ethereum || {};
+      const parsedChainId = process.env.NEXT_PUBLIC_CHAINID === "0x7D0" ? 2000 : 43114;
       const isChainSupported = supportedChainIds.includes(parsedChainId);
       if (!isChainSupported) {
         this.setStore({ chainInvalid: true });
