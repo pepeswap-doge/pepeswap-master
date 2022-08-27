@@ -8,8 +8,8 @@ export const GOV_TOKEN_LOGO = 'https://prod.solidly.exchange/Solidly-O.svg'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
 export const VE_TOKEN_ADDRESS = '0x74a91F1cEe46A20f5a15183aB54AEe89b015C21f'
-export const VE_TOKEN_NAME = 'veNFT'
-export const VE_TOKEN_SYMBOL = 'veNFT'
+export const VE_TOKEN_NAME = 'vePEPE'
+export const VE_TOKEN_SYMBOL = 'vePEPE'
 export const VE_TOKEN_DECIMALS = 18
 export const VE_TOKEN_LOGO = 'https://prod.solidly.exchange/Solidly-O.svg'
 export const VE_TOKEN_ABI = abis.veTokenABI

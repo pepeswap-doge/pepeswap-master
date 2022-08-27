@@ -3,7 +3,7 @@ import Overview from '../../components/ffDashboardOverview';
 import VoteOverview from '../../components/ffDashboardVoteOverview';
 import ClaimAll from '../../components/ffDashboardClaimAll';
 
-import classes from './dashboard.module.css';
+import classes from '../dashboard/dashboard.module.css';
 
 import React, { useState, useEffect } from 'react';
 import { ACTIONS } from '../../stores/constants';

@@ -124,7 +124,7 @@ export default function ssVotes() {
         <div className={ classes.mediumInputContainer}>
           <Grid container>
             <Grid item lg='auto' md='auto' sm={12} xs={12}>
-              <Typography variant="body2" className={ classes.smallText }>Please select your veNFT:</Typography>
+              <Typography variant="body2" className={ classes.smallText }>Please select your vePEPE:</Typography>
             </Grid>
 
             <Grid item lg={6} md={6} sm={12} xs={12}>
