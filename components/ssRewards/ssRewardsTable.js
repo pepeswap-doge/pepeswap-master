@@ -338,7 +338,7 @@ const useStyles = makeStyles((theme) => ({
     background: '#466060',
     fontWeight: '700',
     '&:hover': {
-      background: 'rgb(19, 44, 60)'
+      background: '#2a3c13'
     },
   },
   toolbar: {

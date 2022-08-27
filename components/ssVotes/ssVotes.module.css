@@ -78,7 +78,7 @@
 }
 
 .buttonOverride:hover {
-  background: rgb(19, 44, 60) !important;
+  background: #2a3c13 !important;
 }
 
 
@@ -91,7 +91,7 @@
 }
 
 .buttonOverrideFixed:hover {
-  background: rgb(19, 44, 60) !important;
+  background: #2a3c13 !important;
 }
 
 .tokenIDContainer {
