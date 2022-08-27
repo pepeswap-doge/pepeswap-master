@@ -400,7 +400,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: '700',
   },
   filterContainer: {
-    background: '#212b48',
+    background: '#274821',
     minWidth: '300px',
     marginTop: '15px',
     borderRadius: '10px',

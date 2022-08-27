@@ -303,7 +303,7 @@ a.linkz { cursor: pointer !important; }
   padding: 8px 24px 10px 24px !important;
   text-transform: capitalize !important;
   border: 1px solid rgba(0,0,0,0) !important;
-  color: #7E99B0 !important;
+  color: #83b07e !important;
 } /* Transparent border to eliminate position jittering from Active state */
 
 .testChange {
@@ -466,7 +466,7 @@ a.linkz { cursor: pointer !important; }
     padding: 8px 10px 8px 10px !important;
     text-transform: capitalize !important;
     border: 1px solid rgba(0,0,0,0) !important;
-    color: #7E99B0 !important;
+    color: #83b07e !important;
   }
 
   .subtitleText {

@@ -140,7 +140,7 @@
 .inputBalanceText {
   font-weight: 100 !important;
   font-size: 12px !important;
-  color: #7e99b0;
+  color: #83b07e;
   margin-right: 6px !important;
   margin-top: 6px !important;
 }
@@ -485,7 +485,7 @@
 
 .priceInfo > .text {
   font-size: 13px !important;
-  color: #7e99b0;
+  color: #83b07e;
 }
 
 .assetSelectBalance {
@@ -509,7 +509,7 @@
   align-items: center;
   justify-content: center;
   background: none;
-  border: 1px solid #212B48;
+  border: 1px solid #274821;
   border-radius: 10px;
   width: calc(100% - 50px);
   margin: 20px 25px 0 25px;
@@ -590,7 +590,7 @@
 .toggleOption {
   padding: 20px;
   border-radius: 8px;
-  color: #7E99B0;
+  color: #83b07e;
 }
 
 .toggleOption:hover {
