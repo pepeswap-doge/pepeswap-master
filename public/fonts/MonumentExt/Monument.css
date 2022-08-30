@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Monument";
-  src: url("/fonts/MonumentExt/MonumentExtended-Regular.otf");
+  src: url("/fonts/MonumentExt/ChauPhilomeneOne-Regular.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Monument Bold";
-  src: url("/fonts/MonumentExt/MonumentExtended-Bold.otf");
+  src: url("/fonts/MonumentExt/ChauPhilomeneOne-Regular.ttf");
   font-style: medium;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Monument Light";
-  src: url("/fonts/MonumentExt/MonumentExtended-Light.otf");
+  src: url("/fonts/MonumentExt/ChauPhilomeneOne-Regular.ttf");
   font-style: thin;
   font-weight: 100;
   font-display: swap;

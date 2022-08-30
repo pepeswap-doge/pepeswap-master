@@ -82,7 +82,9 @@ function Home({ changeTheme }) {
           </Grid>
           <Grid item lg={12} md={12} sm={12} xs={12}>
             <Typography variant="body1" className={classes.mainDescription}>
-              PepeSwap officially launched in January 2022 with a collective goal of fair and balanced access to DeFi. PepeSwap is a decentralized exchange that has launched on the Dogechain network with low fees, near 0 slippage on correlated assets and a strong focus on secondary markets for tokenized locks as NFT’s (veToken = lpNFTs).
+              PepeSwap is a decentralized exchange that has launched on the Dogechain network with low fees, near 0 slippage on correlated assets and a strong focus on secondary markets for tokenized locks as NFT’s (veToken = lpNFTs).
+
+
             </Typography>
             <Typography variant="body2" className={classes.secDescription}>
               One segment of the cryptocurrency landscape that has shown incredible potential is the swapping of stablecoins and volatile assets. PepeSwap Swap offers users quick, seamless and cheap transactions while utilizing strategies to maximize their yield.

@@ -121,6 +121,7 @@ function Navigation(props) {
   useEffect(() => {
     const activePath = router.asPath
     if(activePath.includes('presale')) {
+      setActive('swap')
       window.open("https://ico.pepeswap.xyz/", "_blank")
     }
     if(activePath.includes('swap')) {
@@ -159,7 +160,7 @@ function Navigation(props) {
       >
         {renderSubNav(
           'Presale',
-          'https://ico.pepeswap.xyz',
+          'presale',
         )}
         {renderSubNav(
           'Swap',
