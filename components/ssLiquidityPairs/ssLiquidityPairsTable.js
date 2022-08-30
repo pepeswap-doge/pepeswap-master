@@ -373,7 +373,7 @@ const useStyles = makeStyles((theme) => ({
     background: '#466060',
     fontWeight: '700',
     '&:hover': {
-      background: 'rgb(19, 44, 60)'
+      background: '#2a3c13'
     },
   },
   toolbar: {
@@ -400,7 +400,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: '700',
   },
   filterContainer: {
-    background: '#212b48',
+    background: '#274821',
     minWidth: '300px',
     marginTop: '15px',
     borderRadius: '10px',

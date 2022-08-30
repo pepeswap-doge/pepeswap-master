@@ -193,7 +193,7 @@
 }
 
 .buttonOverride:hover {
-  background: rgb(19, 44, 60) !important;
+  background: #2a3c13 !important;
 }
 
 .toggleButtons {
@@ -416,7 +416,7 @@
 .inputBalanceText {
   font-weight: 100 !important;
   font-size: 12px !important;
-  color: #7e99b0;
+  color: #83b07e;
   margin-right: 6px !important;
   margin-top: 6px !important;
 }
@@ -444,7 +444,7 @@
   align-items: center;
   justify-content: center;
   background: none;
-  border: 1px solid #212B48;
+  border: 1px solid #274821;
   border-radius: 10px;
   width: calc(100% - 0px);
   margin: 0px 0px 15px 0px;

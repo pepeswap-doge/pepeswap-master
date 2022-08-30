@@ -52,11 +52,11 @@
 }
 
 .buttonOverride:hover {
-  background: rgb(19, 44, 60);
+  background: #2a3c13;
 }
 
 .filterContainer {
-  background: #212b48;
+  background: #274821;
   min-width: 300px;
   margin-top: 15px;
   border-radius: 10px;

@@ -320,7 +320,7 @@ function MyComponent(props) {
                   alt=""
                 />
                 <Typography style={{ color: "#FFFFFF", marginBottom: "-15px"}} variant={"h2"}>{display}</Typography>
-                <Typography style={{ color: "#7E99B0",}} variant={"body2"}>{descriptor}</Typography>
+                <Typography style={{ color: "#83b07e",}} variant={"body2"}>{descriptor}</Typography>
                 {activating && (
                   <CircularProgress size={15} style={{ marginRight: "10px" }} />
                 )}

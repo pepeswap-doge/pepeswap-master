@@ -99,16 +99,16 @@
   font-size: 16px !important;
   margin-bottom: 20px !important;
   line-height: 1.7rem !important;
-  color: #7E99B0 !important;
+  color: #83b07e !important;
 }
 
 .buttonInfo {
-  background: #212B48 !important;
+  background: #274821 !important;
   font-family: 'Monument' !important;
   padding: 12px 20px 10px 20px !important;
   min-width: 100% !important;
   text-transform: capitalize !important;
-  color: #7E99B0 !important;
+  color: #83b07e !important;
   animation: buttonInfoAnim 1s ease 1;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
@@ -187,7 +187,7 @@
     font-size: 14px !important;
     margin-bottom: 20px !important;
     line-height: 1.2rem !important;
-    color: #7E99B0 !important;
+    color: #83b07e !important;
   }
 
   .buttonInfo,
@@ -233,7 +233,7 @@
     font-size: 13px !important;
     margin-bottom: 20px !important;
     line-height: 1.2rem !important;
-    color: #7E99B0 !important;
+    color: #83b07e !important;
   }
 
   .mainHeading {
