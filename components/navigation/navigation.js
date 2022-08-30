@@ -159,7 +159,7 @@ function Navigation(props) {
       >
         {renderSubNav(
           'Presale',
-          'presale',
+          'https://ico.pepeswap.xyz',
         )}
         {renderSubNav(
           'Swap',
